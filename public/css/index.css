@@ -1,0 +1,28 @@
+body {
+	overflow-x: hidden;
+}
+
+h1 {
+	text-align: center;
+}
+
+.outer {
+	padding-top: 100px;
+}
+
+#btn-yes {
+	width: 400px;
+}
+
+#btn-no {
+	width: 400px;
+}
+
+.btn-xlarge {
+    padding: 150px 150px;
+    font-size: 60px;
+    line-height: normal;
+    -webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+    border-radius: 10px;
+}

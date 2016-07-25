@@ -1,0 +1,27 @@
+</!DOCTYPE html>
+<html>
+<head>
+	<title>David's Interface</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+	<div class="row outer">
+		<div class="col-md-offset-2 col-md-4">
+			<button type="button" class="btn btn-xlarge btn-success" onclick="playYes()" id="btn-yes">
+				<audio id="yes" src="audio/yes.mp3"></audio>
+				YES
+			</button>
+		</div>
+		<div class="col-md-4">
+			<button type="button" class="btn btn-xlarge btn-danger" onclick="playNo()" id="btn-no">
+				<audio id="no" src="audio/no.mp3"></audio>
+				NO
+			</button>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+</html>

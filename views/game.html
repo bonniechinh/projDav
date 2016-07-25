@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>David's Game</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/game.css">
+</head>
+<body>
+	<h1 id="game-instructions" class="startPage">Click the on bubbles to pop them!</h1>
+	<div class="btn-toolbar outer">
+		<button class="btn btn-primary btn-xlarge startPage" onclick="startGame()">V1 Start!</button>
+		<button class="btn btn-primary btn-xlarge startPage" onclick="startV2()">V2 Start!</button>
+	</div>
+	<div class="time-text" hidden>Time Remaining:&nbsp;<span class="timer">60</span></div>
+
+	<div class="btn-toolbar restart" hidden></div>
+</body>
+<script type="text/javascript" src="js/jquery-1.10.2.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/game.js"></script>
+</html>

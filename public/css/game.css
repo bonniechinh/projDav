@@ -1,0 +1,27 @@
+#game-instructions {
+	padding-top: 100px;
+	text-align: center;
+	font-size: 50px;
+}
+
+.outer {
+	text-align: center;
+}
+
+.btn-xlarge {
+    padding: 50px 140px;
+    font-size: 40px;
+    line-height: normal;
+    -webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+button:focus {
+	outline: none;
+}
+
+.restart {
+	text-align: center;
+	vertical-align: middle;
+}
