@@ -30,6 +30,14 @@ app.get('/game', function(req, res) {
 	res.render('game');
 });
 
+app.get('/test', function(req, res) {
+	res.render('test');
+});
+
+app.get('/tracking', function(req, res) {
+	res.render('../tracking');
+});
+
 http.createServer(app).listen(app.get('port'), function() {
     console.log('Express server listening on port ' + app.get('port'));
 });
