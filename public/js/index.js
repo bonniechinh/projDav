@@ -35,6 +35,18 @@ function toggleBtns() {
 	$('#btn-no').toggle();
 };
 
+$(function hoverVote() {
+	$('#btn-vote').mouseenter(function() {
+		voting();
+	});
+});
+
+
+function voting() {
+	var audio = document.getElementById('voting');
+	audio.play();
+}
+
 $(function() {
 	var timerID = setInterval(toggleBtns, 5000);
 })

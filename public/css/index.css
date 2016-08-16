@@ -26,3 +26,12 @@ h1 {
 	-moz-border-radius: 10px;
     border-radius: 10px;
 }
+
+.btn-larger {
+	padding: 90px 90px;
+	font-size: 30px;
+	line-height: normal;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px; 
+}

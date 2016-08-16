@@ -38,6 +38,10 @@ app.get('/tracking', function(req, res) {
 	res.render('../tracking');
 });
 
+app.get('/voting', function(req, res) {
+	res.render('voting');
+});
+
 http.createServer(app).listen(app.get('port'), function() {
     console.log('Express server listening on port ' + app.get('port'));
 });
